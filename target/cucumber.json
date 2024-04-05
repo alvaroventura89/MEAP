@@ -1,0 +1,1272 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User is logged in",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clicks module",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_clicks_module()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T12:45:44.638Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 3373000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User can register and view a new asset",
+        "description": "",
+        "id": "asset-registration-page;user-can-register-and-view-a-new-asset",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User clicks the add button",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.user_clicks_the_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "a form displays",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.a_form_displays()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User can enter required information \"serialNumber\" \"DisplayName\" \"FleetName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"serialNumber\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"DisplayName\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"FleetName\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.testSteps.AssetRegistrationSteps.user_can_enter_required_information(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "click save",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.click_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "new unit will display",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.new_unit_will_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User can click on the unit link",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.user_can_click_on_the_unit_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "unit detail view will display for new device",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.unit_detail_view_will_display_for_new_device()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "new registered unit will reflect in database",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.new_registered_unit_will_reflect_in_datablas()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User is logged in",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clicks module",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_clicks_module()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T12:45:48.362Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 1393000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User can configure new asset",
+        "description": "",
+        "id": "asset-registration-page;user-can-configure-new-asset",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User navigates to Fleet Configuration View",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.user_navigates_to_fleet_configuration_view()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "clicks edit",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.clicks_edit()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "selects newly registered asset \"FleetName\" \"DisplayName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FleetName\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"DisplayName\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.testSteps.AssetRegistrationSteps.selects_newly_registered_asset(java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "edits unit \"EditSerialN\" \"EditName\" \"EditFleet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EditSerialN\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"EditName\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"EditFleet\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.testSteps.AssetRegistrationSteps.edits_unit(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "clicks submit",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.clicks_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "changes should display \"EditSerialN\" \"EditName\" \"EditFleet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EditSerialN\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"EditName\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"EditFleet\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.testSteps.AssetRegistrationSteps.changes_should_display(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User is logged in",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clicks module",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_clicks_module()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T12:45:49.780Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 1436000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "User can configure new asset firmware",
+        "description": "",
+        "id": "asset-registration-page;user-can-configure-new-asset-firmware",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User navigates to Firmware repository",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.user_navigates_to_firmware_repository()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "uploads new firmware \"fileLocation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fileLocation\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.testSteps.AssetRegistrationSteps.uploads_new_firmware(java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "selects newly registered \"EditName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EditName\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.testSteps.AssetRegistrationSteps.selects_newly_registered(java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "clicks apply",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.clicks_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "a success message displays",
+            "match": {
+              "location": "com.testSteps.AssetRegistrationSteps.a_success_message_displays()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Asset Registration Page",
+    "description": "  As a Protran Safety Operations\n  I want to add/register my installed PT-226 asset\n  So that I can identify the unit, view \u0026 manage its configurations and firmware",
+    "id": "asset-registration-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AssetRegistration.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User is logged in",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User clicks module",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_clicks_module()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T12:45:51.236Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 1414000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Authorized User can access Fleet Status Page",
+        "description": "",
+        "id": "fleet-status;authorized-user-can-access-fleet-status-page",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "all Fleet Status Page elements load",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.all_Fleet_Status_Page_elements_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User is able to access Fleet configuration and firmware repository",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_is_able_to_access_fleet_configuration_and_firmware_repository()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User is logged in",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User clicks module",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_clicks_module()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T12:45:52.671Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 1479000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Authorized User can view fleet configuration updates",
+        "description": "",
+        "id": "fleet-status;authorized-user-can-view-fleet-configuration-updates",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User can see fleet config changes status",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_can_see_fleet_config_changes_status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User can click on fleet to view units",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_can_click_on_fleet_to_view_units()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User can view unit config changes status",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_can_view_unit_config_changes_status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User has access to status filter",
+            "match": {
+              "location": "com.testSteps.FleetStatusPageSteps.user_has_access_to_status_filter()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Fleet Status",
+    "description": "  As a Protran Safety Manager\n  I can view summary of the status of the whole fleet w.r.t. configuration updates\n  So that I can manage configs, firmware or take action as needed",
+    "id": "fleet-status",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/FleetStatusPage.feature",
+    "tags": []
+  },
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user navigates to Login Page",
+            "match": {
+              "location": "com.testSteps.LoginSteps.user_navigates_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T12:45:54.167Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 1453000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login using valid credentials",
+        "description": "",
+        "id": "login-page;login-using-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "enters valid credentials",
+            "match": {
+              "location": "com.testSteps.LoginSteps.enters_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "the login button is clicked",
+            "match": {
+              "location": "com.testSteps.LoginSteps.the_login_button_is_clicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user is redirected to Home Page",
+            "match": {
+              "location": "com.testSteps.LoginSteps.user_is_redirected_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user navigates to Login Page",
+            "match": {
+              "location": "com.testSteps.LoginSteps.user_navigates_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T12:45:55.638Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 1515000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Login using invalid credentials",
+        "description": "",
+        "id": "login-page;login-using-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "provides invalid credentials",
+            "match": {
+              "location": "com.testSteps.LoginSteps.provides_invalid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "the login button is clicked",
+            "match": {
+              "location": "com.testSteps.LoginSteps.the_login_button_is_clicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "an error message is displayed",
+            "match": {
+              "location": "com.testSteps.LoginSteps.an_error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-04T12:45:57.208Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 1521000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "unit-details;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I want to write a step with precondition",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "some other precondition",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I complete action",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "some other action",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "yet another action",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I validate the outcomes",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "check more outcomes",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T12:45:58.759Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 1744000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "unit-details;title-of-your-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I want to write a step with name1",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I check for the 5 in step",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I verify the success in step",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T12:46:00.516Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 123.0.6312.88 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GBSLAPTOP-281\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00EDE7D3+124883]\n\tOrdinal0 [0x00EDE7B1+124849]\n\tGetHandleVerifier [0x01128688+193832]\n\tGetHandleVerifier [0x01143AC5+305509]\n\tGetHandleVerifier [0x0114021B+291003]\n\tGetHandleVerifier [0x0113E0AC+282444]\n\tGetHandleVerifier [0x01164A90+440624]\n\tGetHandleVerifier [0x011647FC+439964]\n\tGetHandleVerifier [0x0116154B+426987]\n\tGetHandleVerifier [0x01144FFD+310941]\n\tGetHandleVerifier [0x01145D8E+314414]\n\tGetHandleVerifier [0x01145D19+314297]\n\tGetHandleVerifier [0x012031EC+1089676]\n\tGetHandleVerifier [0x012017C9+1082985]\n\tGetHandleVerifier [0x012013A3+1081923]\n\tGetHandleVerifier [0x012FD9FD+2115741]\n\tOrdinal0 [0x0102B82E+1488942]\n\tOrdinal0 [0x00FC5A7D+1071741]\n\tOrdinal0 [0x00FC559B+1070491]\n\tOrdinal0 [0x00FC54B1+1070257]\n\tOrdinal0 [0x00FFFF53+1310547]\n\tBaseThreadInitThunk [0x7712FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77DB7C2E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.utils.BaseClass.setUp(BaseClass.java:56)\r\n\tat com.utils.SetUpTearDown.start(SetUpTearDown.java:26)\r\n",
+              "duration": 2489000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.start(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.startReport()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "unit-details;title-of-your-scenario-outline;;3",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.utils.BaseClass.tearDown(BaseClass.java:92)\r\n\tat com.utils.SetUpTearDown.tearDown(SetUpTearDown.java:34)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.utils.SetUpTearDown.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I want to write a step with name2",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I check for the 7 in step",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I verify the Fail in step",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Unit Details",
+    "description": "  As a Protran PT226 Operator (CSX Safety Officer?),\n  I want to be able to view and request Log file downloads\n  so that I can view the alarm history of the device",
+    "id": "unit-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/UnitDetails.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

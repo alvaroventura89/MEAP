@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+
+	<groups>
+		<run>
+			<include name="log"></include>
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="com.utils.Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="Smoke Test">
+		<packages>
+
+			<package name="com.testcases" />
+			<package name="com.utils" />
+
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
